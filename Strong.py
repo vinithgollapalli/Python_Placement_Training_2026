@@ -1,9 +1,9 @@
 n=int(input("Enter a number:"))
 sum=0
 t=n
-while n>0:
-    r=n%10
-    n=n//10
+while n>0:  
+    r=n%10   
+    n=n//10     
     fact=1
     while r>1:
         fact= fact*(r*(r-1))
