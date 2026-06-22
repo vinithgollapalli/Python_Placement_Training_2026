@@ -60,5 +60,50 @@
 #     print()
 
 
-#MDiagonal star Pattern
+#Diagonal star Pattern
+# def star(n):
+#     s=n
+#     for i in range(5):
+#         for j in range(1,n+1):
+#             if j == s:
+#                 print("*",end="  ")
+#             else:
+#                 print(j,end='  ')
+#         s-=1
+#         print()
+# n=int(input("Enter s value :"))
+# star(n)
 
+
+
+#Diagonal number pattern
+# def star(n):
+#     s=5
+#     for i in range(5):
+#         for j in range(1,n+1):
+#             if j == i+1:
+#                 print(s,end="  ")
+#             else:
+#                 print("*",end='  ')
+#         s-=1
+#         print()
+# n=int(input("Enter s value :"))
+# star(n)
+
+#Heartshape with 2 letters
+# for i in range(6):
+#     for j in range(7):
+#         if ((i == 0 and j % 3 != 0) or
+#             (i == 1 and j % 3 == 0) or
+#             (i - j == 2) or
+#             (i + j == 8)):
+
+#             if i == 3 and j == 1:
+#                 print("R", end=" ")
+#             elif i == 3 and j == 5:
+#                 print("H", end=" ")
+#             else:
+#                 print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
